@@ -1,6 +1,6 @@
 # Projeto_python3_curso_em_video
 
-ex005: faça um programa que leia um numero inteiro, e mostre na tela seu sucessor e seu antecessor.
+ex005: faça um **programa** que leia um numero inteiro, e mostre na tela seu sucessor e seu antecessor.
 
 ex006: crie um algoritimo que mostre seu dobro, seu triplo, e sua raiz quadrada
 
