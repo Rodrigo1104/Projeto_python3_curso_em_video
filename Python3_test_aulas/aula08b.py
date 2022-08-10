@@ -1,3 +1,3 @@
 import emoji
 
-print(emoji.emojize('Hello, word :stuck_out_tongue_winking_eye:', use_aliases=True))
+print(emoji.emojize(':1st_place_medal:'))
