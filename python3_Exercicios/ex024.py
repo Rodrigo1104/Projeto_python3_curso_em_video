@@ -1,0 +1,5 @@
+c = input('').lower()
+c = c.replace('são', 'Santo').lower()
+c = c.replace('sao', 'Santo').lower()
+c = c.replace('santa', 'Santo').lower()
+print(c[:5] == 'santo')
