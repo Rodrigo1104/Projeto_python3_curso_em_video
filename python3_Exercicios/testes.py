@@ -1,1 +1,7 @@
-RED, BLUE, CYAN, GREEN, RESET = "\033[1;31m", "\033[1;34m", "\033[1;36m", "\033[0;32m", "\033[0;0m"
+s = float(input(''))  # salary
+i = float(input(''))  # valor house
+p = int(input(''))    # years old
+if i / (p * 12) <= (s * 30) / 100:
+    print('sim')
+else:
+    print('nao')
