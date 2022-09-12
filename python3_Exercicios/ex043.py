@@ -11,4 +11,4 @@ elif (IMC == 25 or IMC > 25) and IMC < 30 or IMC == 30:
 elif (IMC > 30 or IMC > 30) and IMC < 40:
     print('obs')
 elif IMC > 40:
-    print('ob_morbid')
+    print('obs_morbid')
