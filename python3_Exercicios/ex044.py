@@ -1,4 +1,4 @@
-v_product = float(input(''))
+vp = float(input('Amount? = '))
 print('''
 [1] MONEI OR CHECK
 [2] CREDIT CARD (1X)
@@ -7,13 +7,13 @@ print('''
 ''')
 payment = int(input(''))
 if payment == 1:
-    print(f'R$ ={v_product * 0.90:.2f}')
+    print(f'R${vp * 0.90:.2f}')
 elif payment == 2:
-    print(f'R$ ={v_product * 0.95:.2f}')
+    print(f'1 x {(vp * 0.95) / 1:.2f} = R${vp * 0.95:.2f}')
 elif payment == 3:
-    print(f'R$ ={v_product * 1.00:.2f}')
+    print(f'2 x {(vp * 1)/2:.2f} = R${vp * 1:.2f}')
 elif payment == 4:
-    print(f'R$ ={v_product * 1.2:.2f}')
+    np = int(input('x '))
+    print(f'{np} x {(vp * 1.2) / np:.2f} = R${vp * 1.2:.2f}')
 else:
     print('error in payment option')
-

@@ -1,5 +1,6 @@
 import random
 import emoji
+from time import sleep
 name = input('your Name? ')
 w = ''
 stone = emoji.emojize(":pedra:", language="pt")
@@ -13,6 +14,13 @@ rock Paper Scissors
 [3]  {scissors} Scissors
 -=-=-=-=-=-=-=-=-=-=''')
 a = int(input('Choice [?] '))
+sleep(0.5)
+print('Jo')
+sleep(0.5)
+print('Ken')
+sleep(0.5)
+print('Po...!')
+sleep(2)
 if a == 1:
     a = stone
 elif a == 2:
