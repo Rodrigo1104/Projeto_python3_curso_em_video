@@ -1,13 +1,26 @@
-n = int(input('?:'))
-print('-'*15)
-print('{:2} x{:2} = {}'.format(n, 1, n*1))
-print('{:2} x{:2} = {}'.format(n, 2, n*2))
-print('{:2} x{:2} = {}'.format(n, 3, n*3))
-print('{:2} x{:2} = {}'.format(n, 4, n*4))
-print('{:2} x{:2} = {}'.format(n, 5, n*5))
-print('{:2} x{:2} = {}'.format(n, 6, n*6))
-print('{:2} x{:2} = {}'.format(n, 7, n*7))
-print('{:2} x{:2} = {}'.format(n, 8, n*8))
-print('{:2} x{:2} = {}'.format(n, 9, n*9))
-print('{:2} x{:2} = {}'.format(n, 10, n*10))
-print('-'*15)
+n = int(input('Number? :'))
+c = 0
+while c < 10:
+    c += 1
+    print(f'{n} + {c} = {c + n}')
+    if c == 10:
+        print('+-*/'*3)
+c = 0
+while c < 10:
+    c += 1
+    print(f'{n} - {c} = {c - n}')
+    if c == 10:
+        print('+-*/'*3)
+c = 0
+while c < 10:
+    c += 1
+    print(f'{n} x {c} = {c * n}')
+    if c == 10:
+        print('+-*/'*3)
+c = 0
+while c < 10:
+    c += 1
+    print(f'{n} / {c} = {c / n:.1f}')
+    if c == 10:
+        print('+-*/'*3)
+c = 0

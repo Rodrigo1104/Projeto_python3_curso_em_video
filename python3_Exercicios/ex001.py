@@ -1,2 +1,3 @@
 msg = 'Hello word!'
-print(msg)
+while 0 < 1:
+    print(msg)
