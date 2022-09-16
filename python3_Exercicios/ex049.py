@@ -1,7 +1,6 @@
 n = int(input('Number? :'))
 c = 0
-while c < 10:
-    c += 1
+for c in range(1, 11):
     print(f'{n} + {c} = {c + n}')
     if c == 10:
         print('+-*/'*3)
