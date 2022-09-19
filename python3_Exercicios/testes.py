@@ -1,7 +1,12 @@
-Frase = input('').strip().upper().replace(' ', '')
-for letters in range(len(Frase) - 1, -1, -1):
-    print(Frase[letters], end='')
-if Frase == Frase[::-1]:
-    print(f' = {Frase[::-1]}\n \033[32mIs Polindromo')
-else:
-    print(f' = {Frase[::-1]}\n \033[31mNot is Polindromo')
+t1 = int(input())
+t2 = t1 + 1
+t3 = t1 + t2
+c = 0
+n = int(input('?')) - 4
+print(f'{t1}->{t2}->{t3}', end='->')
+while c <= n:
+    c += 1
+    t1 = t2
+    t2 = t3
+    t3 = t1 + t2
+    print(t3, end='->')
