@@ -1,12 +1,6 @@
-t1 = int(input())
-t2 = t1 + 1
-t3 = t1 + t2
-c = 0
-n = int(input('?')) - 4
-print(f'{t1}->{t2}->{t3}', end='->')
-while c <= n:
-    c += 1
-    t1 = t2
-    t2 = t3
-    t3 = t1 + t2
-    print(t3, end='->')
+genre = ' '
+while genre != 'M' and genre != 'F':
+    genre = input('Genre [M/F]: ').strip().upper()
+    if genre not in 'FM':
+        print('\033[31m sorry invalid option...\033[m')
+print(f'\033[32mGenre [{genre}] registration\033[m')

@@ -6,10 +6,10 @@ c = 0
 print('what number did the machine choose from [1 to 10]')
 while m != j:
     c += 1
-    j = int(input())
-    print('Analyzing...')
-    sleep(0.1)
+    j = int(input('Number = '))
+    print('Analyzing...', end='')
+    sleep(1)
     if m != j:
-        print('Sorry try again!!!')
+        print('\033[31mSorry try again!!!\033[m')
     if m == j:
-        print(f'Winner {c}ª turn')
+        print(f'\033[32mWinner {c}ª turn')
