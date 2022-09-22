@@ -1,13 +1,12 @@
-t1 = int(input())
-t2 = t1 + 1
-t3 = t1 + t2
-c = 0
-n = int(input('?')) - 5
-print(f'{t1}->{t2}->{t3}', end='->')
-while c <= n:
+c = t1 = t2 = t3 = 1
+n = int(input('Number: '))
+if n < 4:
+    for n in range(0, n):
+        print(f'{n}' if n < 2 else f'{n - 1}', end=' -> ')
+while c < n - 2:
     c += 1
     t1 = t2
     t2 = t3
     t3 = t1 + t2
-    print(t3, end='->')
-print(f'{t3 + t2}', end=':')
+    print(f'0 -> {t1} -> {t2} -> {t3}' if c == 2 else f'-> {t3} ', end='')
+print('Fim' if n < 4 else '-> Fim ', end='')

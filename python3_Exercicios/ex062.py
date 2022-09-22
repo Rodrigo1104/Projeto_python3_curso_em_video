@@ -1,6 +1,6 @@
 total = 0
 c = 10
-Ptr = int(input('1ª termo = '))
+Ptr = int(input('1ª Number = '))
 Pa = int(input('pa = '))
 while c != 0:
     total += c

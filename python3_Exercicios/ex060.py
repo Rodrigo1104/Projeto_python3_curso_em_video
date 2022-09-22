@@ -1,6 +1,6 @@
 n = int(input(''))
 f = 1
-print(f'{n}!')
+print(f'{n}!', end=' = ')
 print(f'{n} ', end='')
 while n > 1:
     n = n - 1
