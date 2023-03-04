@@ -1,5 +1,5 @@
-l1 = float(input('side? :'))
-l2 = float(input('height? :'))
+l1 = float(input('Largura da parede?: '))
+l2 = float(input('Altura da parede?: '))
 a = l1 * l2
 ink = (a/2)
-print('this wall is {:.1f} square meters, and you will need {}L paint.'.format(a, ink))
+print(f'A parede tem {a}mª, e sera preciso {ink}L de tinta.')

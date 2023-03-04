@@ -1,4 +1,3 @@
-import math
 from math import trunc
-n = float(input('Enter with a number :'))
-print(math.trunc(n))
+n = float(input('Digite um numero Real: '))
+print(f'A parte inteira do numero {n} é {trunc(n)}')

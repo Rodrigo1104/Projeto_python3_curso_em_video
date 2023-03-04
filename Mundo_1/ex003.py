@@ -1,5 +1,4 @@
-while 0 < 1:
-    n1 = int(input('Enter a number :'))
-    n2 = int(input('Enter another number :'))
-    s = n1 + n2
-    print('The sum of the:{} and:{} is:{}! '.format(n1, n2, s))
+n1 = int(input('Informe o primeiro numero: '))
+n2 = int(input('Informe o segundo numero: '))
+s = n1 + n2
+print('A soma entre {} e {} = {} '.format(n1, n2, s))
