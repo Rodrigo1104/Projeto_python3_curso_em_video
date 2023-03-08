@@ -27,4 +27,4 @@ while True:
             continue
     if op == 'N':
         break
-print(f'{maioridade} {homens} {mulheres20}')
+print(f'Foram cadastrados {maioridade} pessoas com mais de 18 anos.\n{homens} Homens.\nE {mulheres20} mulheres com menos de 20 anos.')
