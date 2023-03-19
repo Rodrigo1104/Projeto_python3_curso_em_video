@@ -9,6 +9,3 @@ print('os Valores pares digitados foram ', end='')
 for par in lista:
     if par % 2 == 0:
         print(par, end=' ')
-
-
-
