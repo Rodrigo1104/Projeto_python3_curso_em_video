@@ -20,4 +20,3 @@ if len(ver) > 0:
     print('essa expreção é invalida')
 else:
     print('valida')
-print("test desktop")
