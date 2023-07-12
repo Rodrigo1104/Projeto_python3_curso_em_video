@@ -1,4 +1,4 @@
-lista_numeros = [3, 6, 9, 5, 8]
+lista_numeros = []
 lista_par = []
 lista_impar = []
 while True:
