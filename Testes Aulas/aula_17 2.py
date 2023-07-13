@@ -5,4 +5,4 @@ for c in range(0, 3):
     dados.append(int(input('Idade ')))
     galera.append(dados[:])
     dados.clear()
-print(galera)
+print(galera, 'hehe')
