@@ -1,33 +1,22 @@
-namespace Coding.DataStructures.Queues;
+import ctypes
+import pygetwindow as gw
 
-public class Queue
-{
-    private Stack<int> _writer = new();
-    private Stack<int> _replica = new();
+GWL_EXSTYLE = -20
+WS_EX_LAYERED = 0x00080000
+LWA_ALPHA = 0x00000002
 
-    public void Push(int value)
-    {
-        while (_replica.Count > 0)
-            _writer.Push(_replica.Pop());
+OPACITY = 1 # 0 -- 255
+WINDOW_TITLE = "Tibia - Forseti Linklater"
+target_window = gw.getWindowsWithTitle(WINDOW_TITLE)[0]
 
-        _writer.Push(value);
-    }
+if target_window is not None:
+    target_hwnd = target_window._hWnd
 
-    public int Pop()
-    {
-        while (_writer.Count > 0)
-            _replica.Push(_writer.Pop());
+    ex_style = ctypes.windll.user32.GetWindowLongA(target_hwnd, GWL_EXSTYLE)
+    ctypes.windll.user32.SetWindowLongA(target_hwnd, GWL_EXSTYLE, ex_style | WS_EX_LAYERED)
 
-        return _replica.Pop();;
-    }
+    ctypes.windll.user32.SetLayeredWindowAttributes(target_hwnd, 0, OPACITY, LWA_ALPHA)
 
-    public int Peek()
-    {
-        while (_writer.Count > 0)
-            _replica.Push(_writer.Pop());
-
-        return _replica.Peek();
-    }
-
-    public bool Empty() => _writer.Count == 0 && _replica.Count == 0;
-}
+    print("Opacidade da janela modificada.")
+else:
+    print("Janela não encontrada.")
