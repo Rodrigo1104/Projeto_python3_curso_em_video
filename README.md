@@ -12,3 +12,4 @@ Este repositório contém mais de 100 exercícios práticos de Python que estou 
 - Manipulação de Strings e Listas
 - Algoritmos e Problemas de Lógica
 - Trabalhando com Banco de Dados
+- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
