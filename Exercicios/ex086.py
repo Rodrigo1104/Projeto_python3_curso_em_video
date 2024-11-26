@@ -1,19 +1,9 @@
-lista = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-p = x = y = 0
-for c in range(9):
-    lista[x][y] = (int(input(f'Digite [{x}, {y}]: ')))
-    if y <= 1:
-        y += 1
-    else:
-        y = 0
-        x += 1
-x = y = 0
-for c in range(9):
-    print(f'[{lista[x][y]:^5}]', end='   ')
-    if y <= 1:
-        y += 1
-    else:
-        y = 0
-        x += 1
-        print()
-        print()
+matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]    # inicializando a matriz 3 x 3
+
+for col in range(3):    # Preenchendo a matriz com os valores fornecidos pelo user
+    for lin in range(3):
+        matriz[col][lin] = int(input(f'[{col},{lin}]: '))
+for col in range(3):
+    for lin in range(3):
+        print(f'[{matriz[col][lin]:^5}]', end='')
+    print('\n')
