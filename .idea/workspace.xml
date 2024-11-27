@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1bf3b4-ddfe-4ee9-90a8-a019a040d824" name="Changes" comment="Conclusão do ex 088&#10;e&#10;adicionando nosvas fucionalidade para ver &#10;* quantos vezes foi gerado numeros repetidos em cada jogo gerado." />
+    <list default="true" id="6b1bf3b4-ddfe-4ee9-90a8-a019a040d824" name="Changes" comment="Conclusão do ex 089...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios/ex089.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/ex089.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +53,7 @@
     &quot;Python.ex086.executor&quot;: &quot;Run&quot;,
     &quot;Python.ex087.executor&quot;: &quot;Run&quot;,
     &quot;Python.ex088.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex089.executor&quot;: &quot;Run&quot;,
     &quot;Python.testes.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -239,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732622077065</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update do ex 088...">
+      <option name="closed" value="true" />
+      <created>1732666483150</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732666483150</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Conclusão do ex 089...">
+      <option name="closed" value="true" />
+      <created>1732672313409</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732672313409</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +312,8 @@
     <MESSAGE value="&#10;Melhoria no ex: 086 utilizando conceitos de matriz." />
     <MESSAGE value="Conclusão do ex 087" />
     <MESSAGE value="Conclusão do ex 088&#10;e&#10;adicionando nosvas fucionalidade para ver &#10;* quantos vezes foi gerado numeros repetidos em cada jogo gerado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Conclusão do ex 088&#10;e&#10;adicionando nosvas fucionalidade para ver &#10;* quantos vezes foi gerado numeros repetidos em cada jogo gerado." />
+    <MESSAGE value="Update do ex 088..." />
+    <MESSAGE value="Conclusão do ex 089..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conclusão do ex 089..." />
   </component>
 </project>
