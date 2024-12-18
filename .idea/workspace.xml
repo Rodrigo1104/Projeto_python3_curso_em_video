@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1bf3b4-ddfe-4ee9-90a8-a019a040d824" name="Changes" comment="Conclusão do ex 092...&#10;iniciando o ex093...">
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_9.png" afterDir="false" />
+    <list default="true" id="6b1bf3b4-ddfe-4ee9-90a8-a019a040d824" name="Changes" comment="Add dos ex ate o 104 img sem, Falta renomear">
+      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercicios/ex_prints/img_19.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercicios/ex093.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicios/ex093.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,32 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python._virtualenv.executor": "Run",
-    "Python.aula18.executor": "Run",
-    "Python.ex083.executor": "Run",
-    "Python.ex084.executor": "Run",
-    "Python.ex085.executor": "Run",
-    "Python.ex086.executor": "Run",
-    "Python.ex087.executor": "Run",
-    "Python.ex088.executor": "Run",
-    "Python.ex089.executor": "Run",
-    "Python.ex090.executor": "Run",
-    "Python.ex091.executor": "Run",
-    "Python.ex092.executor": "Run",
-    "Python.ex093.executor": "Run",
-    "Python.testes.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Rodri/__Estudos__/Projeto_python3_curso_em_video",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python._virtualenv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex083.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex084.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex085.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex086.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex087.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex088.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex089.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex090.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex091.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex092.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex093.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rodri/__Estudos__/Projeto_python3_curso_em_video&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rodri\__Estudos__\Projeto_python3_curso_em_video\Exercicios" />
@@ -348,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732726830147</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add dos ex ate o 104 img sem, Falta renomear">
+      <option name="closed" value="true" />
+      <created>1733007041946</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733007041946</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,6 +398,7 @@
     <MESSAGE value="Conclusão do ex 090.." />
     <MESSAGE value="Conclusão do ex 091..." />
     <MESSAGE value="Conclusão do ex 092...&#10;iniciando o ex093..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Conclusão do ex 092...&#10;iniciando o ex093..." />
+    <MESSAGE value="Add dos ex ate o 104 img sem, Falta renomear" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dos ex ate o 104 img sem, Falta renomear" />
   </component>
 </project>
